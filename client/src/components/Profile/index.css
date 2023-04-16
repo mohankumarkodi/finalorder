@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: rgb(243, 137, 62);
+    background-color: rgb(255, 252, 251);
     background-size: cover;
     height: 100vh;
 
@@ -290,4 +290,82 @@
     color: #0b0a0a;
     padding: 0;
     padding-right: 10px;
+}
+.profile-top-icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+  
+}
+.profile-inputs{
+    color: grey;
+    font-size: 25px;
+    font-family: "roboto";
+    font-weight: 300;
+    margin-left: 20px;
+
+}
+.profile-name-headings{
+    color: rgb(39, 15, 15);
+    font-size: 30px;
+    font-family: "roboto";
+    font-weight: 500;
+
+}
+
+.profile-card-align-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: solid 1px darkgray;
+    border-radius: 25px;
+     
+}
+.profile-card-container{
+    border: solid 1px darkgray;
+    border-radius: 25px;
+     padding: 50px;
+     width: 500px;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.profile-edit-profile-button{
+    width: 100px;
+    background-color: cornflowerblue;
+    padding: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.profile-edit-password-button{
+    width: 120px;
+    background-color: rgb(144, 53, 194);
+    padding: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.profile-img-icon-background-container{
+    height:250px ;
+    background-color: rgb(8, 8, 155);
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.profile-butoons-container{
+    margin: 15px;
 }

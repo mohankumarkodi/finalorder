@@ -110,38 +110,37 @@ function Profile() {
 
       <div className="p-margin">
         <Header />
-        <div className="profile-details">
-          <div className="profile-heading-container">
-            <h1 className="profile-heading">Account</h1>
+        <div className="profile-card-align-middle">
+          <div className="profile-card-container">
             <div>
-              <button className="edit-profile-btn" onClick={toggleModal}>
-                Edit Profile
+              <p className="profile-name-headings">
+                username<span className="profile-inputs">{username}</span>
+              </p>
+              <p className="profile-name-headings">
+                fullname<span className="profile-inputs">{fullname}</span>
+              </p>
+              <p className="profile-name-headings">
+                email
+                <span className="profile-inputs">{email}</span>
+              </p>
+              <p className="profile-name-headings">
+                number <spam className="profile-inputs">{mobile}</spam>
+              </p>
+            </div>
+
+            <div className="profile-butoons-container">
+              <button
+                onClick={toggleModal}
+                className="profile-edit-profile-button"
+              >
+                Edit profile
               </button>
               <button
-                className="edit-profile-btn"
                 onClick={togglePasswordModal}
+                className="profile-edit-password-button"
               >
-                Edit Password
+                Edit password
               </button>
-            </div>
-          </div>
-          <hr className="h-line" />
-          <div className="profile-details-container">
-            <div className="details-container">
-              <h1 className="user-details">Username:</h1>
-              <h1 className="user-sub-details">{username}</h1>
-            </div>
-            <div className="details-container">
-              <h1 className="user-details">Full name:</h1>
-              <h1 className="user-sub-details">{fullname}</h1>
-            </div>
-            <div className="details-container">
-              <h1 className="user-details">email:</h1>
-              <h1 className="user-sub-details">{email}</h1>
-            </div>
-            <div className="details-container">
-              <h1 className="user-details">mobile:</h1>
-              <h1 className="user-sub-details">{mobile}</h1>
             </div>
           </div>
         </div>
